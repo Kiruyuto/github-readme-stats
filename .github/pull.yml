@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: anuraghazra:master
+    mergeMethod: hardreset
+    reviewers:
+      - Kiruyuto
+label: "update-fork"
+conflictLabel: "merge-conflict"
